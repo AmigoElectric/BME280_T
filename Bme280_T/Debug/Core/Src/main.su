@@ -1,0 +1,14 @@
+main.c:126:6:Error	8	static
+main.c:131:6:BME280I2Cx_WriteData	48	static
+main.c:142:9:BME280I2Cx_ReadData	56	static
+main.c:155:6:BME280_ReadReg_U16	48	static
+main.c:167:6:BME280_ReadReg_S16	48	static
+main.c:179:6:BME280_ReadReg_S24	48	static
+main.c:191:6:BME280_Init	24	static
+main.c:241:7:BME280_ReadTemperature	32	static
+main.c:266:5:main	8	static
+main.c:317:6:SystemClock_Config	88	static
+main.c:352:13:MX_I2C2_Init	8	static
+main.c:398:13:MX_USART4_UART_Init	8	static
+main.c:433:13:MX_GPIO_Init	48	static
+main.c:462:6:Error_Handler	8	static,ignoring_inline_asm

@@ -1,0 +1,19 @@
+23:13:58 **** Incremental Build of configuration Debug for project Bme280_T ****
+make -j2 all 
+arm-none-eabi-gcc -o "Bme280_T.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Video\BME280_T\Bme280_T\STM32F072C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Bme280_T.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Bme280_T.elf
+ 
+arm-none-eabi-size   Bme280_T.elf 
+arm-none-eabi-objdump -h -S  Bme280_T.elf  > "Bme280_T.list"
+   text	   data	    bss	    dec	    hex	filename
+  34792	    484	   1916	  37192	   9148	Bme280_T.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy  -O binary  Bme280_T.elf  "Bme280_T.bin"
+Finished building: Bme280_T.bin
+ 
+Finished building: Bme280_T.list
+ 
+
+23:14:05 Build Finished. 0 errors, 0 warnings. (took 6s.950ms)
+

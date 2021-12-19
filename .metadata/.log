@@ -1,0 +1,33 @@
+!SESSION 2021-11-18 22:54:31.397 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-11-18 22:55:14.334
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-11-18 22:55:14.474
+!MESSAGE Log4j initialized with config file C:\Video\BME280_T\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-11-18 22:55:21.614
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-11-18 22:59:01.792
+!MESSAGE Indexed 'Bme280_T' (21 sources, 81 headers) in 10.4 sec: 4,288 declarations; 22,996 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0073%)
+!SESSION 2021-11-18 23:53:10.883 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-11-18 23:53:22.019
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-11-18 23:53:22.339
+!MESSAGE Log4j initialized with config file C:\Video\BME280_T\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-11-18 23:53:37.203
+!MESSAGE Started RMI Server, listening on port 41337
